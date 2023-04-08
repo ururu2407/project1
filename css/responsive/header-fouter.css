@@ -1,0 +1,23 @@
+@media screen and (max-width: 1399px) {
+  body header .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  body header .container {
+    background: none;
+    -webkit-backdrop-filter: blur(0);
+            backdrop-filter: blur(0);
+    max-width: 100%;
+  }
+  body header .container .row .logo {
+    width: 44px;
+    padding: 0;
+  }
+  body header .container .row .logo .logo-xs-xl {
+    display: none;
+  }
+  body header .container .row .logo .logo-md {
+    display: flex;
+  }
+}/*# sourceMappingURL=header-fouter.css.map */

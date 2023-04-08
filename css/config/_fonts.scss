@@ -1,0 +1,189 @@
+$font-size-base: 16px;
+@function PXtoREM($px) {
+    @return $px / $font-size-base * 1rem;
+}
+
+$fonts-path: "../font/";
+
+$label-large-semibold: (
+    family: "MacPawFixel",
+    weight: 600,
+    size: PXtoREM(18px),
+    height: 28px,
+    spacing: 0.25px
+);
+$label-large-medium: (
+    family: "MacPawFixel",
+    weight: 500,
+    size: PXtoREM(18px),
+    height: 28px,
+    spacing: 0.25px
+);
+$label-large-regular: (
+    family: "MacPawFixel",
+    weight: 400,
+    size: PXtoREM(18px),
+    height: 28px,
+    spacing: 0.25px
+);
+$label-medium-semibold: (
+    family: "MacPawFixel",
+    size: PXtoREM(16px),
+    weight: 600,
+    height: 24px,
+    spacing: 1.3px
+);
+$label-medium-medium: (
+    family: "MacPawFixel",
+    weight: 500,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px
+);
+$label-medium-regular: (
+    family: "MacPawFixel",
+    weight: 400,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px
+);
+
+$label-small-semibold: (
+    family: "MacPawFixel",
+    weight: 600,
+    size: PXtoREM(14px),
+    height: 20px,
+    spacing: 1.3px
+);
+$label-small-medium: (
+    family: "MacPawFixel",
+    weight: 500,
+    size: PXtoREM(14px),
+    height: 20px,
+    spacing: 0.25px
+);
+$label-small-regular: (
+    family: "MacPawFixel",
+    weight: 400,
+    size: PXtoREM(14px),
+    height: 20px,
+    spacing: 0.25px
+);
+$body-medium-semibold: (
+    family: "MacPawFixel",
+    weight: 600,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px
+);
+$body-medium-medium: (
+    family: "MacPawFixel",
+    weight: 500,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px
+);
+$body-medium-regular: (
+    family: "MacPawFixel",
+    weight: 300,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px
+);
+$headline-spec-bold: (
+    family: "MacPawFixel",
+    weight: 700,
+    size: PXtoREM(24px),
+    height: 32px,
+    spacing: 1.3px
+);
+$headline-large-heavy: (
+    family: "Helvetica",
+    weight: 800,
+    size:PXtoREM(48px),
+    height: 52px,
+    spacing: 0.25px
+);
+$headline-small-heavy: (
+    family: "Helvetica",
+    weight: 800,
+    size:PXtoREM(18px),
+    height: 26px,
+    spacing: 0.44px
+);
+$mobile-label-spec-semibold: (
+    family: "MacPawFixel",
+    weight: 600,
+    size: PXtoREM(57px),
+    height: 64px,
+    spacing: 1px
+);
+$mobile-label-large-medium: (
+    family: "MacPawFixel",
+    weight: 500,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.5px
+);
+$mobile-label-medium-regular: (
+    family: "MacPawFixel",
+    weight: 400,
+    size: PXtoREM(14px),
+    height: 21px,
+    spacing: 0.1px
+);
+$mobile-label-small-semibold: (
+    family: "MacPawFixel",
+    weight: 600,
+    size: PXtoREM(12px),
+    height: 16px,
+    spacing: 1px
+);
+$mobile-body-large-regular: (
+    family: "MacPawFixel",
+    weight: 400,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.5px
+);
+$mobile-headline-spec-bold: (
+    family: "MacPawFixel",
+    weight: 700,
+    size: PXtoREM(24px),
+    height: 32px,
+    spacing: 1.3px
+);
+$mobile-headline-small-bold: (
+    family: "MacPawFixel",
+    weight: 600,
+    size: PXtoREM(20px),
+    height: 28px,
+    spacing: 0px
+);
+$mobile-headline-medium-heavy: (
+    family: "Helvetica",
+    weight: 800,
+    size: PXtoREM(28px),
+    height: 36px,
+    spacing: 0px
+);
+$mobile-headline-small-condensed: (
+    family: "Helvetica",
+    weight: 800,
+    size: PXtoREM(24px),
+    height: 32px,
+    spacing: 0px
+);
+
+@mixin setFont($name, $weight, $src, $style: normal) {
+    @font-face {
+        font-family: $name;
+        font-weight: $weight;
+        font-style: $style;
+        src: url($src);
+    }
+}
+
+:root {
+    font-size: $font-size-base !important;
+}

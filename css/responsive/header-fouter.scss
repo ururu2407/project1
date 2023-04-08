@@ -1,0 +1,165 @@
+// @import "css/config/colors";
+// @import "css/config/fonts";
+
+@media screen and (max-width: 1399px) {
+    body {
+        .container {
+            max-width: 1140px;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        .container {
+            max-width: calc(100% - 16px);
+        }
+
+        header {
+            position: relative;
+            height: 100px;
+            padding: 0;
+            background-color: $neutral-blackwhite-1000;
+
+            .container {
+                background: none;
+                backdrop-filter: blur(0);
+                height: 100px;
+                padding: 0 0px;
+
+                .row {
+                    height: 100px;
+                    padding: 0px 0px 10px 0px;
+                    align-content: end;
+                    margin: 0 0;
+
+                    .logo {
+                        width: 44px;
+                        padding: 0;
+                    }
+
+                    .top-navigation {
+                        height: 36px;
+
+                        ul {
+                            margin: 0;
+
+                            li {
+                                padding: 8px 16px;
+                                height: 36px;
+
+                                a {
+                                    font-weight: map-get($mobile-label-large-medium, weight);
+                                    font-size: map-get($mobile-label-large-medium, size);
+                                    line-height: map-get($mobile-label-large-medium, height);
+                                    letter-spacing: map-get($mobile-label-large-medium, spacing);
+                                }
+
+                                &:hover {
+                                    background: none;
+
+                                    a {
+
+                                        color: $primary-green-500
+                                    }
+                                }
+                            }
+
+                            .dropdown {
+                                width: auto;
+                                padding-right: 16px;
+                                height: 36px;
+
+                                svg {
+                                    display: none;
+                                }
+
+                                .dropdown-content {
+                                    display: none;
+                                }
+
+                                &:hover {
+                                    background: none;
+
+                                    a {
+                                        color: $primary-green-500
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            background-color: $neutral-blackwhite-900;
+            border-radius: 18px 18px 0 0;
+            .container {
+                .first-section {
+                    .footer__subscribe {
+                        margin-bottom: 56px;
+                        .newsletter__footer {
+                            width: 100%;
+                        }
+                    }
+                }
+                .second-section {
+                    .footer__copyright {
+                        padding-left: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        .container {
+            max-width: calc(100% - 10px);
+        }
+
+        header {
+            .container {
+                .row {
+                    .logo {
+                        width: 124px;
+                    }
+
+                    .sign-up-search {
+                        position: relative !important;
+                        top: 0 !important;
+                    }
+
+                    .top-navigation {
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        .burger {
+            .mobile__menu {
+                border-radius: 0 18px 18px 0;
+                width: 83.3%;
+            }
+        }
+        .container {
+            max-width: 100%;
+        }
+        footer {
+            .container {
+                padding: 56px 10px 32px;
+                .second-section {
+                    .footer__copyright {
+                        padding: 0 12px;
+                    }
+                }
+            }
+        }
+    }
+}

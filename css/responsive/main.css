@@ -1,0 +1,96 @@
+@media screen and (max-width: 1399px) {
+  main .container {
+    max-width: 1140px;
+  }
+  main .container .news {
+    gap: 148px;
+  }
+  main .container .news .left-content {
+    width: 554px;
+  }
+  main .container .news .left-content .banner-content {
+    width: 554px;
+  }
+  main .container .news .left-content .main-article .article {
+    width: 554px;
+  }
+  main .container .news .left-content .main-article .article .image {
+    width: 216px;
+    height: 210px;
+    padding-right: 0;
+    margin-right: 20px;
+  }
+  main .container .news .left-content .main-article .article .image img {
+    width: 204px;
+    height: 210px;
+  }
+  main .container .news .left-content .main-article .article .content {
+    gap: 16px;
+    width: 318px;
+  }
+  main .container .news .left-content .main-article .article .content .author {
+    height: auto;
+  }
+  main .container .news .left-content .main-article .article .content .author p {
+    padding: 0;
+  }
+  main .container .news .left-content .main-article .article .content .author img {
+    display: none;
+  }
+  main .container .news .left-content .main-article .article .content .text-content .text2 {
+    display: none;
+  }
+  main .container .news .left-content .main-article .article .content .text-content .xl {
+    display: block;
+  }
+  main .container .news .side-news {
+    width: 359px;
+  }
+  main .container .news .side-news form .search-hover .icons .search-icon svg {
+    left: 304px;
+  }
+  main .container .news .side-news form .search-hover .icons .close-icon svg {
+    left: 304px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main {
+    padding: 0;
+  }
+  .main .swiper-bg {
+    position: relative;
+  }
+  .main .container {
+    max-width: calc(100% - 40px);
+    top: 0;
+  }
+  .main .container .news {
+    gap: 0;
+  }
+  .main .container .news .left-content {
+    width: 100%;
+  }
+  .main .container .news .left-content .banner-content {
+    width: 100%;
+    height: 100%;
+  }
+  .main .container .news .left-content .banner-content h3 {
+    display: none;
+  }
+  .main .container .news .left-content .banner-content .swiper-pagination {
+    display: none;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news {
+    height: 100%;
+    background: none;
+    -webkit-backdrop-filter: blur(0);
+            backdrop-filter: blur(0);
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news:hover .slide-news-hover {
+    background: none;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover {
+    height: 100%;
+    padding: 15px 0;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,769 @@
+:root {
+  font-size: 16px !important;
+}
+
+@font-face {
+  font-family: "MacPawFixel";
+  src: url(/font/MacPawFixel-VF.ttf);
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(/font/Helvetica\ Neue\ LT\ Com\ 77\ Bold\ Condensed.ttf);
+}
+.swiper {
+  margin-left: 0 !important;
+}
+
+main {
+  color: #fcfcfc;
+  padding: 0;
+}
+main .swiper-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 648px;
+  left: 0;
+}
+main .swiper-bg .FG-black {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.48);
+}
+main .swiper-bg .FG-bot-to-top {
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 63.27%;
+  bottom: 0%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #191A1C 92.62%);
+}
+main .swiper-bg .BG {
+  z-index: 0;
+}
+main .swiper-bg .BG img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+main .container {
+  padding-top: 184px;
+}
+main .container .news {
+  -moz-column-gap: 148px;
+       column-gap: 148px;
+}
+main .container .news h3 {
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.3px;
+  font-size: 1.5rem;
+}
+main .container .news .left-content {
+  gap: 94px;
+  width: 780px;
+}
+main .container .news .left-content .banner-content {
+  width: 612px;
+  height: 410px;
+  justify-content: start;
+}
+main .container .news .left-content .banner-content .swiper-pagination {
+  bottom: 0;
+  max-width: 84px;
+}
+main .container .news .left-content .banner-content .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(119, 119, 119, 0.62);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+}
+main .container .news .left-content .banner-content .swiper-pagination-bullet-active {
+  background-color: #28d377;
+}
+main .container .news .left-content .banner-content .swiper {
+  margin-left: none;
+}
+main .container .news .left-content .banner-content .slide-content {
+  background-color: black;
+  border-radius: 26px;
+  height: 100%;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news {
+  margin-left: 0;
+  height: 310px;
+  border-radius: 26px;
+  background-color: rgba(43, 43, 43, 0.62);
+  -webkit-backdrop-filter: blur(11.5px);
+          backdrop-filter: blur(11.5px);
+  transition: 0.6s ease-in-out;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news:hover .slide-news-hover {
+  transition: 0.3s ease-in-out;
+  background-color: rgba(241, 255, 248, 0.08);
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover {
+  transition: 0.3s ease-in-out;
+  height: 310px;
+  border-radius: 26px;
+  padding: 32px 37px;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .gaming {
+  height: 24px;
+  color: #28d377;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .gaming .sport_esports {
+  width: 24px;
+  height: 24px;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .gaming .sport_esports path {
+  fill: #28d377;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .gaming p {
+  margin: 0 0;
+  padding: 2px 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1.3px;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .text-1 {
+  margin-top: 14px;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .text-1 p {
+  font-family: "Helvetica";
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 52px;
+  letter-spacing: 0.25px;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .text-2 {
+  margin-top: 28px;
+}
+main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .text-2 p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+main .container .news .left-content .main-article .trending h1 {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #28d377;
+  font-family: "MacPawFixel";
+  font-size: 3.5625rem;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 1px;
+}
+main .container .news .left-content .main-article .trending .block-news {
+  position: relative;
+  top: -32px;
+  row-gap: 16px;
+  margin: 0;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news {
+  padding: 18px;
+  max-width: 49%;
+  border-radius: 26px;
+  background-color: rgba(43, 43, 43, 0.62);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a p {
+  margin: 0;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming {
+  height: 24px;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming .sport_esports {
+  width: 24px;
+  height: 24px;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming .sport_esports path {
+  fill: #28d377;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming p {
+  color: #ABABAB;
+  font-family: "MacPawFixel";
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+  display: flex;
+  padding: 4px 0;
+  align-items: center;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming .game {
+  color: #28d377;
+  margin: 0 0;
+  padding: 2px 5px 0px 5px;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming .svg_hot path {
+  fill: #ff5c00;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .gaming .hot {
+  color: #ff5c00;
+  padding: 0;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .text-1 {
+  margin-top: 10px;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .text-1 p {
+  font-family: "Helvetica";
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .text-2 {
+  margin-top: 22px;
+}
+main .container .news .left-content .main-article .trending .block-news .trending-news a .text-2 p {
+  font-family: "MacPawFixel";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #ABABAB;
+}
+main .container .news .left-content .main-article .article {
+  padding: 10px 0;
+  width: 780px;
+}
+main .container .news .left-content .main-article .article .image {
+  margin-right: 32px;
+}
+main .container .news .left-content .main-article .article .image img {
+  max-width: 100%;
+}
+main .container .news .left-content .main-article .article .content {
+  gap: 24px;
+  width: 411px;
+  padding: 0 0;
+}
+main .container .news .left-content .main-article .article .content .author {
+  height: 48px;
+}
+main .container .news .left-content .main-article .article .content .author img {
+  margin-right: 14px;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+}
+main .container .news .left-content .main-article .article .content .author p {
+  margin-bottom: 0;
+  padding: 12px 0;
+  color: #ABABAB;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+main .container .news .left-content .main-article .article .content .text-content {
+  gap: 8px;
+}
+main .container .news .left-content .main-article .article .content .text-content .text1 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #fcfcfc;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+main .container .news .left-content .main-article .article .content .text-content .text2 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #fcfcfc;
+  margin-bottom: 0;
+}
+main .container .news .left-content .main-article .article .content .text-content .xl {
+  display: none;
+}
+main .container .news .left-content .main-article .article .content button {
+  justify-content: center;
+  padding: 8px 0;
+  gap: 8px;
+  border-radius: 7px;
+  border: none;
+  background: none;
+  width: 45px;
+  height: 40px;
+}
+main .container .news .left-content .main-article .article .content button P {
+  transition: 1s;
+  margin-bottom: 0;
+  color: #28d377;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1.3px;
+}
+main .container .news .left-content .main-article .article .content button:hover p {
+  transition: 1s;
+  letter-spacing: 3.3px;
+}
+main .container .news .side-news {
+  padding-right: 0;
+  width: 432px;
+}
+main .container .news .side-news h1 {
+  color: #28d377;
+  font-family: "MacPawFixel";
+  font-size: 3.5625rem;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 1px;
+}
+main .container .news .side-news form {
+  display: block;
+  margin-bottom: 16px;
+  height: 56px;
+  border: none;
+  border-radius: 18px;
+  background-color: rgba(43, 43, 43, 0.62);
+  -webkit-backdrop-filter: blur(11.5px);
+          backdrop-filter: blur(11.5px);
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+main .container .news .side-news form .search-hover {
+  height: 56px;
+  border-radius: 18px;
+  transition: 0.3s ease-in-out;
+}
+main .container .news .side-news form .search-hover .icons .search-icon svg {
+  opacity: 1;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: -40px;
+  left: 374px;
+}
+main .container .news .side-news form .search-hover .icons .search-icon svg path {
+  fill: #ABABAB;
+}
+main .container .news .side-news form .search-hover .icons .close-icon svg {
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: -64px;
+  left: 374px;
+}
+main .container .news .side-news form .search-hover .icons .close-icon svg path {
+  fill: #fcfcfc;
+}
+main .container .news .side-news form .search-hover .icons:hover {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+main .container .news .side-news form .search-hover input {
+  transition: 0.35s ease-in-out;
+}
+main .container .news .side-news form .search-hover input::-webkit-search-cancel-button {
+  display: none;
+}
+main .container .news .side-news form .search-hover input[type=search] {
+  color: #fcfcfc;
+  width: 100%;
+  height: 56px;
+  border: none;
+  background: none;
+  border-radius: 18px;
+  padding: 0px 24px;
+  outline: none;
+  transition: 0.35s ease-in-out;
+}
+main .container .news .side-news form .search-hover input[type=search]:focus {
+  color: #fcfcfc;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #28d377;
+}
+main .container .news .side-news form .search-hover input[type=search]:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+main .container .news .side-news form .search-hover input[type=search]:focus::-moz-placeholder {
+  -moz-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+main .container .news .side-news form .search-hover input[type=search]:focus:-ms-placeholder {
+  -ms-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+main .container .news .side-news form .search-hover input[type=search]:focus + .icons .close-icon svg {
+  opacity: 1;
+}
+main .container .news .side-news form .search-hover input[type=search]:focus + .icons .search-icon svg {
+  opacity: 0;
+}
+main .container .news .side-news form .search-hover input[type=search][type=search]::-webkit-input-placeholder {
+  color: #ABABAB;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .container .news .side-news form .search-hover:hover {
+  transition: 0.3s ease-in-out;
+  color: #fcfcfc;
+  background-color: rgba(241, 255, 248, 0.08);
+}
+main .container .news .side-news form .search-hover:hover input[type=search]::-webkit-input-placeholder {
+  color: #fcfcfc;
+}
+main .container .news .side-news form .search-hover:hover .search-icon svg path {
+  fill: #fcfcfc;
+}
+main .container .news .side-news .block-news {
+  position: relative;
+  top: -40px;
+  row-gap: 16px;
+  margin: 0;
+}
+main .container .news .side-news .block-news .latest-news {
+  padding: 18px;
+  max-width: 49%;
+  border-radius: 26px;
+  background-color: rgba(43, 43, 43, 0.62);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+main .container .news .side-news .block-news .latest-news a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+main .container .news .side-news .block-news .latest-news a p {
+  margin: 0;
+}
+main .container .news .side-news .block-news .latest-news a .gaming {
+  height: 24px;
+}
+main .container .news .side-news .block-news .latest-news a .gaming .sport_esports {
+  width: 24px;
+  height: 24px;
+}
+main .container .news .side-news .block-news .latest-news a .gaming .sport_esports path {
+  fill: #28d377;
+}
+main .container .news .side-news .block-news .latest-news a .gaming p {
+  color: #ABABAB;
+  display: flex;
+  padding: 4px 0;
+  align-items: center;
+  margin: 0 0;
+  font-family: "MacPawFixel";
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+main .container .news .side-news .block-news .latest-news a .gaming .game {
+  color: #28d377;
+  margin: 0 0;
+  padding: 2px 5px 0px 5px;
+}
+main .container .news .side-news .block-news .latest-news a .gaming .svg_hot path {
+  fill: #ff5c00;
+}
+main .container .news .side-news .block-news .latest-news a .gaming .hot {
+  color: #ff5c00;
+  padding: 0;
+}
+main .container .news .side-news .block-news .latest-news a .text-1 {
+  margin-top: 10px;
+}
+main .container .news .side-news .block-news .latest-news a .text-1 p {
+  font-family: "MacPawFixel";
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+main .container .news .side-news .block-news .latest-news a .text-2 {
+  margin-bottom: 22px;
+}
+main .container .news .side-news .block-news .latest-news a .text-2 img {
+  margin: 8px 0;
+  border-radius: 18px;
+  width: 100%;
+}
+main .container .news .side-news .block-news .latest-news a .text-2 p {
+  font-family: "MacPawFixel";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .container .news .side-news .block-news .latest-news a .text-3 p {
+  font-family: "MacPawFixel";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #ABABAB;
+}
+main .container .news .side-news .scroll {
+  height: 700px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide {
+  height: 180px;
+  margin-left: 0;
+  border-radius: 26px;
+  background-color: rgba(43, 43, 43, 0.62);
+  -webkit-backdrop-filter: blur(11.5px);
+          backdrop-filter: blur(11.5px);
+  transition: 0.3s ease-in-out;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide:hover .scroll-slide-hover {
+  transition: 0.3s ease-in-out;
+  background-color: rgba(241, 255, 248, 0.08);
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover {
+  transition: 0.3s ease-in-out;
+  padding: 24px;
+  height: 180px;
+  border-radius: 26px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .gaming {
+  height: 20px;
+  color: #28d377;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .gaming .sport_esports {
+  width: 20px;
+  height: 20px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .gaming .sport_esports path {
+  fill: #28d377;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .gaming p {
+  margin: 0 0;
+  padding: 2px 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1.3px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .text-1 {
+  margin-top: 14px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .text-1 p {
+  font-family: "Helvetica";
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.44px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .text-2 {
+  margin-top: 24px;
+}
+main .container .news .side-news .scroll .scroll-content .scroll-slide .scroll-slide-hover a .text-2 p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #ABABAB;
+}
+
+@media screen and (max-width: 1399px) {
+  main .container .news {
+    gap: 148px;
+  }
+  main .container .news .left-content {
+    width: 554px;
+  }
+  main .container .news .left-content .banner-content {
+    width: 554px;
+  }
+  main .container .news .left-content .main-article .article {
+    width: 554px;
+  }
+  main .container .news .left-content .main-article .article .image {
+    width: 216px;
+    height: 210px;
+    padding-right: 0;
+    margin-right: 20px;
+  }
+  main .container .news .left-content .main-article .article .image img {
+    width: 204px;
+    height: 210px;
+  }
+  main .container .news .left-content .main-article .article .content {
+    gap: 14px;
+    width: 318px;
+  }
+  main .container .news .left-content .main-article .article .content .author {
+    height: auto;
+  }
+  main .container .news .left-content .main-article .article .content .author p {
+    padding: 0;
+  }
+  main .container .news .left-content .main-article .article .content .author img {
+    display: none;
+  }
+  main .container .news .side-news {
+    width: 33.3333333%;
+  }
+  main .container .news .side-news form .search-hover .icons .search-icon svg {
+    left: 330px;
+  }
+  main .container .news .side-news form .search-hover .icons .close-icon svg {
+    left: 330px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main {
+    padding: 0;
+  }
+  .main .swiper-bg {
+    position: relative;
+    z-index: 0;
+    aspect-ratio: 1133/420;
+    height: 100%;
+  }
+  .main .container {
+    top: 0;
+    padding-top: 0;
+  }
+  .main .container .news {
+    gap: 56px;
+  }
+  .main .container .news .left-content {
+    width: 100%;
+    gap: 56px;
+  }
+  .main .container .news .left-content .banner-content {
+    width: 100%;
+    height: 100%;
+  }
+  .main .container .news .left-content .banner-content .slide-content {
+    width: 100%;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news {
+    height: 100%;
+    background: none;
+    -webkit-backdrop-filter: blur(0);
+            backdrop-filter: blur(0);
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news:hover .slide-news-hover {
+    background: none;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover {
+    height: 100%;
+    padding: 15px 0;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a p {
+    margin: 0;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .gaming p {
+    padding: 2px 5px 0px 5px;
+    align-items: center;
+    display: flex;
+    font-family: "MacPawFixel";
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .text-1 p {
+    font-family: "Helvetica";
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0px;
+  }
+  .main .container .news .left-content .banner-content .slide-content .slide-news .slide-news-hover a .text-2 p {
+    font-family: "MacPawFixel";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  .main .container .news .side-news {
+    padding: 0 12px;
+    width: 100%;
+    position: relative;
+  }
+  .main .container .news .side-news form {
+    position: relative;
+    top: -40px;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  .main .container .news .side-news form .search-hover .icons .search-icon svg {
+    left: 96%;
+  }
+  .main .container .news .side-news form .search-hover .icons .close-icon svg {
+    left: 96%;
+  }
+}
+@media screen and (max-width: 991px) {
+  main .swiper-bg {
+    aspect-ratio: 892/336 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .swiper-bg {
+    aspect-ratio: 744/348 !important;
+  }
+  main .container .news form .search-hover .icons .search-icon svg {
+    left: 94.5% !important;
+  }
+  main .container .news form .search-hover .icons .close-icon svg {
+    left: 94.5% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  main .swiper-bg {
+    aspect-ratio: 412/288 !important;
+  }
+  main .container .news .left-content .main-article .trending .block-news .trending-news {
+    max-width: 100%;
+  }
+  main .container .news .side-news form .search-hover .icons .search-icon svg {
+    left: 89% !important;
+  }
+  main .container .news .side-news form .search-hover .icons .close-icon svg {
+    left: 89% !important;
+  }
+  main .container .news .side-news .block-news .latest-news {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .swiper-bg {
+    aspect-ratio: 360/216 !important;
+  }
+}/*# sourceMappingURL=main.css.map */
